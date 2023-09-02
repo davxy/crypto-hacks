@@ -1,0 +1,12 @@
+[package]
+name = "ed25519-dalek-secret-recovery"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+curve25519-dalek = { version = "4.0.0", features = ["digest"] }
+digest = "0.10.7"
+ed25519-dalek = "1.0.1"
+hex = "0.4.3"
+rand = "0.7.0"
+sha2 = "0.10.7"
