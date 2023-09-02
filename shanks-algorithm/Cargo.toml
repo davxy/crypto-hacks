@@ -1,0 +1,13 @@
+[package]
+name = "shanks"
+authors = [ "Davide Galassi <davxy@datawok.net>" ]
+version = "0.1.0"
+edition = "2021"
+description = "Shanks algorithm for discrete log attack"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num-bigint = { version = "0.4.3" }
+num = { version = "0.4.0" }
