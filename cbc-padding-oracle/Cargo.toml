@@ -1,0 +1,12 @@
+[package]
+name = "cbc-padding-oracle"
+authors = [ "Davide Galassi <davxy@datawok.net>" ]
+version = "0.1.0"
+edition = "2021"
+description = "Padding oracle attack PoC carried over AES-CBC"
+license = "MIT"
+
+[dependencies]
+cbc = "0.1.2"
+aes = "0.8.2"
+hex = "0.4.3"
