@@ -1,0 +1,12 @@
+[package]
+name = "birthday-paradox"
+authors = [ "Davide Galassi <davxy@datawok.net>" ]
+version = "0.1.0"
+edition = "2021"
+description = "Birthdaty paradox PoC"
+license = "MIT"
+
+[dependencies]
+hex = "0.4.3"
+rand = "0.8.5"
+sha2 = "0.10.6"
